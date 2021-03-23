@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/auth.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Авторизация</title>
+  </head>
+  <body>
+    <header class="outer-container">
+      <nav class="inner-container">
+        <div class="menu">
+          <input class="burger-check" id="burger-check" type="checkbox">
+          <label for="burger-check" class="burger"></label>
+          <ul class="navigation">
+            <li><a class="button-like" href="./index.html#main">Главная</a></li>
+            <li><a class="button-like" href="./index.html#start">Играть</a></li>
+            <li><a class="button-like" href="./index.html#shop">Магазин</a></li>
+            <li><a class="button-like" href="#">Форум</a></li>
+          </ul>
+        </div>
+        <div class="side-container">
+          <a href="auth.html" class="button-like button-like__selected">Личный кабинет</a>
+        </div>
+      </nav>
+    </header>
+    <section id="main" class="outer-container auth-outer">
+      <div class="inner-container auth-inner">
+        <form action="#" class="form auth-form">
+          <h1 class="heading">Войти в личный кабинет</h1>
+          <span class="error">Ошибка: неверный логин или пароль</span>
+          <label>
+            <input
+              class="input"
+              type="text"
+              placeholder="Игровой логин"
+              required
+            />
+          </label>
+          <label>
+            <input
+              class="input"
+              type="password"
+              pattern="\d*"
+              title="пароль"
+              placeholder="Пароль"
+              required
+            />
+          </label>
+          <label>
+            <button class="button form-button" type="submit">Войти</button>
+          </label>
+        </form>
+        <div class="helper">
+          <h2>Забыли логин или пароль?</h2>
+          <span>
+            Для того, чтобы восстановить доступ к своему аккаунту перейдите по <a>ссылке</a>.
+          </span>
+        </div>
+      </div>
+    </section>
+    <footer class="outer-container">
+      <nav class="inner-container">
+        <div class="politics">
+          <a href="#" class="politics-item">Политика конфиденциальности</a>
+          <a href="#" class="politics-item">Политика возврата средств</a>
+        </div>
+        <div class="social">
+          <a href="#" class="social-item">
+            <img src="./icons/vk.svg" alt="vk" />
+          </a>
+          <a href="#" class="social-item">
+            <img src="./icons/discord.svg" alt="vk" />
+          </a>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>

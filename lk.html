@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/lk.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Личный кабинет</title>
+  </head>
+  <body>
+    <header class="outer-container">
+      <nav class="inner-container">
+        <div class="menu">
+          <input class="burger-check" id="burger-check" type="checkbox" />
+          <label for="burger-check" class="burger"></label>
+          <ul class="navigation">
+            <li><a class="button-like" href="./index.html#main">Главная</a></li>
+            <li><a class="button-like" href="./index.html#start">Играть</a></li>
+            <li><a class="button-like" href="./index.html#shop">Магазин</a></li>
+            <li><a class="button-like" href="#">Форум</a></li>
+          </ul>
+        </div>
+        <div class="side-container">
+          <a href="" class="button-like button-like__selected"
+            >Личный кабинет</a
+          >
+        </div>
+      </nav>
+    </header>
+    <section id="main" class="outer-container lk-outer">
+      <div class="inner-container lk-inner">
+        <div class="grid-card head">
+          <div class="vertical-wrapper">
+            <h1 class="login">MikeNic</h1>
+            <h2 class="email">me@gmail.com</h2>
+          </div>
+          <div class="controls">
+            <button class="button leave-button">выйти</button>
+          </div>
+        </div>
+        <div class="grid-card profile">
+          <h2 class="heading">инфо:</h2>
+          <div class="horizontal-wrapper">
+            <div class="avatar-frame">
+              <div class="avatar">
+                <img src="./images/avatar.jpg" alt="" />
+              </div>
+              <div class="lvl">1</div>
+            </div>
+            <table>
+              <tr>
+                <th class="i i-h">Имя:</th>
+                <td class="i">Гарсия</td>
+              </tr>
+              <tr>
+                <th class="i i-h">Фамилия:</th>
+                <td class="i">Маркес</td>
+              </tr>
+              <tr>
+                <th>Пол:</th>
+                <td>Мужской</td>
+              </tr>
+              <tr>
+                <th>Возраст:</th>
+                <td>25</td>
+              </tr>
+              <tr>
+                <th>Телефон:</th>
+                <td>+7-912-305-35-35</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="grid-card details">
+          <h2 class="heading">имущество:</h2>
+          <div class="sec-wrapper">
+            <div class="sec sec-1">
+              <h3>Финансы:</h3>
+              <table>
+                <tr>
+                  <th>Наличные:</th>
+                  <td class="money accent">100</td>
+                </tr>
+                <tr>
+                  <th>На карте:</th>
+                  <td class="money accent">2200</td>
+                </tr>
+              </table>
+              <a href="index.html#shop">
+                <button class="button replenish-button">пополнить счет</button>
+              </a>
+            </div>
+            <div class="sec sec-2">
+              <h3>Транспорт:</h3>
+              <div class="cars-wrapper">
+                <table class="cars">
+                  <tr class="car-item">
+                    <td class="car-icon">
+                      <img src="./images/car.svg" alt="car" />
+                    </td>
+                    <td class="car-info">
+                      <span class="car-model">Mersedes Benz</span>
+                      <span class="car-price">60 000</span>
+                    </td>
+                  </tr>
+                  <tr class="car-item">
+                    <td class="car-icon">
+                      <img src="./images/car.svg" alt="car" />
+                    </td>
+                    <td class="car-info">
+                      <span class="car-model">Mersedes Benz</span>
+                      <span class="car-price">60 000</span>
+                    </td>
+                  </tr>
+                  <tr class="car-item">
+                    <td class="car-icon">
+                      <img src="./images/car.svg" alt="car" />
+                    </td>
+                    <td class="car-info">
+                      <span class="car-model">Mersedes Benz</span>
+                      <span class="car-price">60 000</span>
+                    </td>
+                  </tr>
+                  <tr class="car-item">
+                    <td class="car-icon">
+                      <img src="./images/car.svg" alt="car" />
+                    </td>
+                    <td class="car-info">
+                      <span class="car-model">Mersedes Benz</span>
+                      <span class="car-price">60 000</span>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-card info">
+          <table>
+            <tr>
+              <th>Дата создания:</th>
+              <td>01.01.2020</td>
+              <th>Время в игре:</th>
+              <td>0 д. 10 ч. 5 м.</td>
+            </tr>
+          </table>
+        </div>
+        <div class="grid-card characters"></div>
+      </div>
+    </section>
+    <footer class="outer-container">
+      <nav class="inner-container">
+        <div class="politics">
+          <a href="#" class="politics-item">Политика конфиденциальности</a>
+          <a href="#" class="politics-item">Политика возврата средств</a>
+        </div>
+        <div class="social">
+          <a href="#" class="social-item">
+            <img src="./icons/vk.svg" alt="vk" />
+          </a>
+          <a href="#" class="social-item">
+            <img src="./icons/discord.svg" alt="vk" />
+          </a>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>

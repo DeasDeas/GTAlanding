@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>undercrime</title>
+  </head>
+  <body>
+    <header class="outer-container">
+      <nav class="inner-container">
+        <div class="menu">
+          <input class="burger-check" id="burger-check" type="checkbox">
+          <label for="burger-check" class="burger"></label>
+          <ul class="navigation">
+                <li><a class="button-like button-like__selected" href="#main">Главная</a></li>
+                <li><a class="button-like" href="#start">Играть</a></li>
+                <li><a class="button-like" href="#">Магазин</a></li>
+                <li><a class="button-like" href="#">Форум</a></li>
+          </ul>
+        </div>
+        <div class="side-container">
+          <a href="auth.html" class="button-like">Личный кабинет</a>
+        </div>
+      </nav>
+    </header>
+    <section id="main" class="outer-container main-outer">
+      <div class="inner-container main-inner">
+        <div class="content">
+          <h1 class="main-heading">UNDERCRIME</h1>
+          <img
+            class="blood-drop"
+            src="./images/BloodDrop%201.svg"
+            alt="blood drop"
+          />
+          <h2 class="sub-heading">
+            <span class="h2-1">ролевой</span>
+            <span class="h2-2">сервер<br />в</span>
+            <span class="h2-3">GTA&nbspV</span>
+          </h2>
+          <div class="card-wrapper">
+            <div class="counters card-bg"></div>
+            <div class="counters card">
+              <div class="picture-wrapper">
+                <img
+                  class="online-picture"
+                  src="./images/playing-now.jpg"
+                  alt="picture"
+                />
+              </div>
+              <span class="counter-title">сейчас играют:</span>
+              <span class="counter">1112</span>
+            </div>
+            <div class="start card-bg"></div>
+            <div class="start card">
+              <button class="button start-button">КАК НАЧАТЬ ИГРАТЬ?</button>
+              <div class="button-layout"></div>
+            </div>
+            <span class="text"
+              >погрузись в&nbspудивительный мир GTA RP
+              <span class="accent">прямо&nbspсейчас</span></span
+            >
+            <div class="donate card-bg"></div>
+            <div class="donate card">
+              <button class="button donate-button">МАГАЗИН</button>
+            </div>
+          </div>
+        </div>
+        <div class="img-frame">
+          <img class="city-img" src="./images/los-santos.jpg" alt="city" />
+        </div>
+      </div>
+    </section>
+    <section id="start" class="outer-container start-outer">
+      <div class="heading-container">
+        <div class="layout"></div>
+        <h2 class="heading">начать играть</h2>
+      </div>
+      <div class="inner-container start-inner">
+        <div class="step-card step-1">
+          <h3 class="card-heading">
+            Приобрести и&nbspустановить лицензионную
+            <span class="accent">GTA&nbspV</span>
+          </h3>
+          <p class="card-description">
+            Если игра уже куплена, то&nbspперейти к&nbspпункту&nbsp2.
+          </p>
+          <button class="card-button">Приобрести GTA&nbspV</button>
+        </div>
+        <div class="step-card step-2">
+          <h3 class="card-heading">
+            Скачать и&nbspзапустить <span class="accent">RAGE&nbspMP</span>
+          </h3>
+          <button class="card-button">Cкачать RAGE&nbspMP</button>
+        </div>
+        <div class="step-card step-3">
+          <h3 class="card-heading">
+            Зайти на сервер и <span class="accent">начать&nbspиграть</span>
+          </h3>
+          <p class="card-description">
+            Откройте “мультиплеер” и&nbspнажмите “серверы”, в&nbspстроке поиска
+            введите Undercrime, либо&nbspприсоединяйтесь через вкладку Direct
+            Connect, скопировав этот адрес:
+          </p>
+          <button class="card-button">185.189.255.56: 22005</button>
+        </div>
+      </div>
+    </section>
+    <section id="shop" class="outer-container shop-outer">
+      <div class="heading-container">
+        <div class="layout"></div>
+        <h2 class="heading">магазин</h2>
+      </div>
+      <div class="inner-container shop-inner">
+        <div class="form-wrapper">
+          <form action="#" class="form payment-form">
+            <h3 class="heading">Пополнить игровой баланс</h3>
+            <label>
+              <input
+                class="input"
+                type="text"
+                size="35"
+                placeholder="Игровой логин"
+                required
+              />
+            </label>
+            <label>
+              <input
+                class="input"
+                type="text"
+                title="Пароль"
+                size="35"
+                placeholder="100 ₽"
+                required
+              />
+            </label>
+            <label>
+              <button class="button form-button" type="submit">
+                Пополнить
+              </button>
+            </label>
+          </form>
+          <div class="price">
+            <span class="price-label"
+              >1 рубль = 1 <span class="accent">undercoin</span></span
+            >
+            <span class="price-label"
+              >1 <span class="accent">undercoin</span> = 200 $</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="outer-container">
+      <nav class="inner-container">
+        <div class="politics">
+          <a href="#" class="politics-item">Политика конфиденциальности</a>
+          <a href="#" class="politics-item">Политика возврата средств</a>
+        </div>
+        <div class="social">
+          <a href="#" class="social-item">
+            <img src="./icons/vk.svg" alt="vk" />
+          </a>
+          <a href="#" class="social-item">
+            <img src="./icons/discord.svg" alt="vk" />
+          </a>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
