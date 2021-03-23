@@ -278,6 +278,10 @@ footer {
 :root {
   scrollbar-width: thin; }
 
+@media (max-width: 991px) {
+  table tbody {
+    font-size: 24px; } }
+
 .main-outer {
   position: relative;
   width: 100%;

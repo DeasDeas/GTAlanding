@@ -267,6 +267,10 @@ footer {
 :root {
   scrollbar-width: thin; }
 
+@media (max-width: 991px) {
+  table tbody {
+    font-size: 24px; } }
+
 :root {
   --bg-color-1: #70fbb8;
   --bg-color-2: #0f98e4;

@@ -18,9 +18,9 @@
           <input class="burger-check" id="burger-check" type="checkbox" />
           <label for="burger-check" class="burger"></label>
           <ul class="navigation">
-            <li><a class="button-like" href="./index.html#main">Главная</a></li>
-            <li><a class="button-like" href="./index.html#start">Играть</a></li>
-            <li><a class="button-like" href="./index.html#shop">Магазин</a></li>
+            <li><a id="main-btn" class="button-like" href="./index.html#main">Главная</a></li>
+            <li><a id="start-btn" class="button-like" href="./index.html#start">Играть</a></li>
+            <li><a id="shop-btn" class="button-like" href="./index.html#shop">Магазин</a></li>
             <li><a class="button-like" href="#">Форум</a></li>
           </ul>
         </div>
@@ -80,7 +80,7 @@
           <div class="sec-wrapper">
             <div class="sec sec-1">
               <h3>Финансы:</h3>
-              <table>
+              <table class="finance">
                 <tr>
                   <th>Наличные:</th>
                   <td class="money accent">100</td>
@@ -149,7 +149,27 @@
             </tr>
           </table>
         </div>
-        <div class="grid-card characters"></div>
+        <div class="grid-card characters">
+          <div>
+            <input type="radio" id="char-1" name="drone" value="char-1"
+                   checked>
+            <label for="char-1">
+              <img class="char-img" src="./icons/no-avatar.svg" alt="" />
+            </label>
+          </div>
+          <div>
+            <input type="radio" id="char-2" name="drone" value="char-2">
+            <label for="char-2">
+              <img class="char-img" src="./icons/no-avatar.svg" alt="" />
+            </label>
+          </div>
+          <div>
+            <input type="radio" id="char-3" name="drone" value="char-3">
+            <label for="char-3">
+              <img class="char-img" src="./icons/no-avatar.svg" alt="" />
+            </label>
+          </div>
+        </div>
       </div>
     </section>
     <footer class="outer-container">
