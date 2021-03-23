@@ -14,13 +14,13 @@ window.addEventListener("scroll", (event) => {
 		header.style.background= "var(--bg-color-light)";
 	}
 
-	if (scroll > 920 && scroll < 1500) {
+	if (scroll > 900 && scroll < 1300) {
 		main.className = "button-like"
 		start.className = "button-like"
 		shop.className = "button-like"
 		start.classList.add("button-like__selected")
 	}
-	else if (scroll > 1500) {
+	else if (scroll >= 1300) {
 		main.className = "button-like"
 		start.className = "button-like"
 		shop.className = "button-like"
