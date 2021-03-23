@@ -83,6 +83,7 @@ header {
         header nav .navigation li a {
           text-decoration: none; }
     header nav .burger {
+      --color: #4e4e4e;
       display: none;
       align-self: center;
       width: 36px;
@@ -92,7 +93,7 @@ header {
       cursor: pointer;
       background: none;
       border: 0;
-      border-bottom: 4px solid #4e4e4e;
+      border-bottom: 4px solid var(--color);
       outline: 0;
       transition: border-bottom 1s ease-in-out; }
       header nav .burger::-moz-focus-inner {
@@ -103,14 +104,14 @@ header {
         width: 100%;
         margin-bottom: 5px;
         content: "";
-        border-bottom: 4px solid #4e4e4e;
+        border-bottom: 4px solid var(--color);
         transition: transform 0.5s ease-in-out; }
       header nav .burger::after {
         display: block;
         width: 100%;
         margin-bottom: 5px;
         content: "";
-        border-bottom: 4px solid #4e4e4e;
+        border-bottom: 4px solid var(--color);
         transition: transform 0.5s ease-in-out; }
       @media (max-width: 991px) {
         header nav .burger {
