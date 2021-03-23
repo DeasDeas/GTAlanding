@@ -5,7 +5,7 @@ function authAction(event) {
 	const password = document.getElementById('password').value;
 
 	if (login === "admin" && password === "123") {
-		window.history.pushState({}, "", '/lk.html');
+		window.history.pushState({}, "", '/GTAlanding/lk.html');
 		document.location.reload();
 	}
 	else {
