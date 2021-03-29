@@ -1,0 +1,83 @@
+@import "elements";
+@import "vars";
+
+.auth-outer {
+    min-height: 100vh;
+    background-image: linear-gradient(270deg, var(--bg-color-1) -0.9%, var(--bg-color-2) 108.03%);
+
+    .auth-inner {
+        flex-direction: column;
+        justify-content: center;
+
+        --mx-width: 60%;
+
+        @media (max-width: $screen-md-max) {
+            justify-content: flex-start;
+            margin-top: 200px;
+
+            --mx-width: 90%;
+        }
+
+        .auth-form {
+            position: relative;
+
+            .heading {
+                font-size: 28px;
+                color: #400e1e;
+            }
+
+            .error {
+                position: absolute;
+                right: 0;
+                bottom: 10px;
+                left: 0;
+                display: flex;
+                justify-content: center;
+                width: 50%;
+                padding: 10px;
+                margin: auto;
+                font-weight: bold;
+                color: #d2333a;
+                visibility: hidden;
+                background: rgba(#f9f1eb, 0.9);
+                border-radius: 5px;
+            }
+
+            max-width: var(--mx-width);
+            background:
+                linear-gradient(195deg, #fff 34.79%, rgba(255, 255, 255, 0) 51.18%),
+                linear-gradient(242deg, #fff 37.27%, rgba(255, 255, 255, 0) 47.93%),
+                url(../images/auth-img.jpg);
+            border-radius: 5px;
+        }
+
+        .helper {
+            box-sizing: border-box;
+            width: 100%;
+            max-width: var(--mx-width);
+            padding: 20px;
+            margin: 40px auto;
+            text-align: center;
+            background:
+                linear-gradient(159.48deg, #fff 22.18%, rgba(255, 255, 255, 0) 155.44%),
+                url(../images/vinewood-streets-background.jpg) 0 -400px;
+            border-radius: 5px;
+
+            h2 {
+                margin-bottom: 20px;
+                font-size: 18px;
+                color: #400e1e;
+                text-transform: uppercase;
+
+                @include font-nunito;
+            }
+
+            span {
+                a {
+                    color: #005f94;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
