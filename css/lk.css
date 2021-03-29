@@ -272,6 +272,96 @@ footer {
   table tbody {
     font-size: 24px; } }
 
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Roboto/roboto-v20-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/Roboto/roboto-v20-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/roboto-v20-latin-regular.woff2") format("woff2"), url("../fonts/Roboto/roboto-v20-latin-regular.woff") format("woff"), url("../fonts/Roboto/roboto-v20-latin-regular.ttf") format("truetype"), url("../fonts/Roboto/roboto-v20-latin-regular.svg#Roboto") format("svg");
+  /* Legacy iOS */ }
+
+/* roboto-500 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Roboto/roboto-v20-latin-500.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/Roboto/roboto-v20-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/roboto-v20-latin-500.woff2") format("woff2"), url("../fonts/Roboto/roboto-v20-latin-500.woff") format("woff"), url("../fonts/Roboto/roboto-v20-latin-500.ttf") format("truetype"), url("../fonts/Roboto/roboto-v20-latin-500.svg#Roboto") format("svg");
+  /* Legacy iOS */ }
+
+/* roboto-700 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Roboto/roboto-v20-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/Roboto/roboto-v20-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/roboto-v20-latin-700.woff2") format("woff2"), url("../fonts/Roboto/roboto-v20-latin-700.woff") format("woff"), url("../fonts/Roboto/roboto-v20-latin-700.ttf") format("truetype"), url("../fonts/Roboto/roboto-v20-latin-700.svg#Roboto") format("svg");
+  /* Legacy iOS */ }
+
+/* roboto-900 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/Roboto/roboto-v20-latin-900.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/Roboto/roboto-v20-latin-900.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/roboto-v20-latin-900.woff2") format("woff2"), url("../fonts/Roboto/roboto-v20-latin-900.woff") format("woff"), url("../fonts/Roboto/roboto-v20-latin-900.ttf") format("truetype"), url("../fonts/Roboto/roboto-v20-latin-900.svg#Roboto") format("svg");
+  /* Legacy iOS */ }
+
+/* nunito-regular - latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Nunito/nunito-v16-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/Nunito/nunito-v16-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Nunito/nunito-v16-latin-regular.woff2") format("woff2"), url("../fonts/Nunito/nunito-v16-latin-regular.woff") format("woff"), url("../fonts/Nunito/nunito-v16-latin-regular.ttf") format("truetype"), url("../fonts/Nunito/nunito-v16-latin-regular.svg#Nunito") format("svg");
+  /* Legacy iOS */ }
+
+/* nunito-600 - latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Nunito/nunito-v16-latin-600.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/Nunito/nunito-v16-latin-600.eot?#iefix") format("embedded-opentype"), url("../fonts/Nunito/nunito-v16-latin-600.woff2") format("woff2"), url("../fonts/Nunito/nunito-v16-latin-600.woff") format("woff"), url("../fonts/Nunito/nunito-v16-latin-600.ttf") format("truetype"), url("../fonts/Nunito/nunito-v16-latin-600.svg#Nunito") format("svg");
+  /* Legacy iOS */ }
+
+/* nunito-700 - latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Nunito/nunito-v16-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/Nunito/nunito-v16-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/Nunito/nunito-v16-latin-700.woff2") format("woff2"), url("../fonts/Nunito/nunito-v16-latin-700.woff") format("woff"), url("../fonts/Nunito/nunito-v16-latin-700.ttf") format("truetype"), url("../fonts/Nunito/nunito-v16-latin-700.svg#Nunito") format("svg");
+  /* Legacy iOS */ }
+
+/* nunito-800 - latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/Nunito/nunito-v16-latin-800.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/Nunito/nunito-v16-latin-800.eot?#iefix") format("embedded-opentype"), url("../fonts/Nunito/nunito-v16-latin-800.woff2") format("woff2"), url("../fonts/Nunito/nunito-v16-latin-800.woff") format("woff"), url("../fonts/Nunito/nunito-v16-latin-800.ttf") format("truetype"), url("../fonts/Nunito/nunito-v16-latin-800.svg#Nunito") format("svg");
+  /* Legacy iOS */ }
+
+/* nunito-900 - latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/Nunito/nunito-v16-latin-900.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/Nunito/nunito-v16-latin-900.eot?#iefix") format("embedded-opentype"), url("../fonts/Nunito/nunito-v16-latin-900.woff2") format("woff2"), url("../fonts/Nunito/nunito-v16-latin-900.woff") format("woff"), url("../fonts/Nunito/nunito-v16-latin-900.ttf") format("truetype"), url("../fonts/Nunito/nunito-v16-latin-900.svg#Nunito") format("svg");
+  /* Legacy iOS */ }
+
 .lk-outer {
   min-height: 100vh;
   background-image: linear-gradient(270deg, var(--bg-color-2) -0.9%, var(--bg-color-1) 108.03%); }
